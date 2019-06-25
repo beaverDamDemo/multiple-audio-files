@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1">
+		<meta name="author" content="Zdenko Vuk">
+		<meta name="owner" content="Zdenko Vuk">
+		<link rel="stylesheet" href="assets/css/jquery-ui.structure.min.css">
+		<link rel="stylesheet" href="assets/css/jquery-ui.min.css">
+		<link rel="stylesheet" href="assets/css/styles.min.css">
+		<title></title>
+	</head>
+	<body>
+		<div class="preloader-wrapper active">
+			<div class="preloader-content">
+				<div class="preloader-wheel active"></div>
+				<div class="trackbar">
+					<div class="loadbar"></div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="" id="wrapper">
+			<section id="heading">
+				<div class="text-bgr"><p></p></div>
+			</section>
+			<main>
+				<form action="">
+					<div id="slider-top" class="ui-slider ui-slider-horizontal"></div>
+					<div class="vol-icon"></div>
+					<button type="button" role='button' class="btn-vertical disabled active" id="button_stop"></button>
+					<button type="button" role='button' class="btn-vertical disabled" id="button_play"></button>
+					<button type="button" role='button' class="btn-vertical disabled active" id="button_pause"></button>
+				</form>
+				<section id="track-wrapper">
+				</section>
+			</main>
+			<footer>
+				<div class="footer-img ft-img__left"></div>
+				<div class="footer-img ft-img__right"></div>
+			</footer>
+			<div class='closeButton' id="closeButton"></div>
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+		<script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+		
+		<!-- DEVELOPMENT SCRIPT -->
+		<script src='assets/js/src/app.js'></script>
+		<script src='assets/js/src/play.js'></script>
+
+		<!-- PRODUCTION SCRIPT -->
+		<!-- <script src='assets/js/bundle.min.js'></script> -->
+	</body>
+</html>

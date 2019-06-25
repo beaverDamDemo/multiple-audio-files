@@ -1,0 +1,19 @@
+{
+  "sounds": [
+  	{
+  		"url": "assets/audio/ps-0.mp3"
+  	},
+  	{
+  		"url": "assets/audio/ps-1.mp3"
+  	},
+  	{
+  		"url": "assets/audio/ps-2.mp3"
+  	},
+  	{
+  		"url": "assets/audio/ps-6.mp3"
+  	},
+  	{
+  		"url": "assets/audio/ps-4.mp3"
+  	}
+	]
+}
